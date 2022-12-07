@@ -1,1 +1,1 @@
-DATABASE_URL="mysql://root@localhost:3333/chatbot"
+DATABASE_URL="mysql://root@localhost:3306/smswhats"
