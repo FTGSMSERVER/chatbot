@@ -12,9 +12,7 @@ const server = http.createServer(app);
 const io = new socketio.Server(server, {
   cors: {
     origin: [
-      "https://ftgsmserver.com/",
       "https://sms.ftgsmserver.com/",
-      "https://kit.ftgsmserver.com/",
       "https://new.ftgsmserver.com/",
     ],
     credentials: true,
